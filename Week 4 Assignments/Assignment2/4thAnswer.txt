@@ -1,0 +1,24 @@
+The given figure has 3 errors.
+
+
+They are:
+
+1) "Identifying Relationship Rule Violation" for Rel6 because the relationship Rel6 is not connected to any weak entity set.
+
+
+2) "Weak Entity Type Violation" for Entity6 because it doesn't have a primary key from it's associated entity Entity7.
+
+
+3) "Identifying Dependency Cardinality Rule Violation" for weak entity Entity6 it must have a minimum and maximum cardinality of 1 whereas it has a minimum cardinality of 1 and maximum cardinality greater than 1.
+
+
+
+The resolutions for the above errors are:
+
+1) Changing the relationship Rel6 to dotted-line.
+
+
+2) Including the Primary key Attribute7-1 of Entity7 in Entity6 as it's Primary Key eliminates the Weak-Entity Type Violation.
+
+
+3) Changing the minimum and maximum cardinalities for Entity6 to 1 eliminates Identifying Dependency Cardinality Rule Violation.
