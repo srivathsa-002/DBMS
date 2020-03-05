@@ -1,0 +1,1 @@
+In Visual Paradigm, it isn't possible to make an M-N Relationship so just by removing the weak entity and having Many-to-Many Relationship between TestType and TestItem entities the solution is done.
